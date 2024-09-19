@@ -17,7 +17,7 @@ Scala kernel for Jupyter using docker.
 ## Build
 
 ```sh
-docker build --tag wilberquito/almondsh .
+docker build --tag wilberquito/almondsh . --no-cache
 ```
 
 ## Run container with volume
