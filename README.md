@@ -1,12 +1,10 @@
-# [Functional and Object-oriented Programming (OOP) with Scala](notebooks/_index.ipynb)
+# [Functional and OOP with Scala](notebooks/_index.ipynb)
 
-A list of Jupyter Notebooks for the Pd.A subject.
+For teaching purposes, we will use `Jupyter Notebooks` that run `Scala` code for the Pd.A subject.
 
 If you find any mistake please feel free to add an issue on the [**original repository**](https://github.com/wilberquito/interactive-Pd.A-Scala/issues).
 
 ## Template for working with Scala
-
-For teaching purposes, we will use `Jupyter Notebooks` that run `Scala` code. 
 
 We provide a simple project template to avoid you to running into problems at the creation of a Scala project.
 
