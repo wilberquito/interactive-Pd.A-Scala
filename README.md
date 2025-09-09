@@ -8,11 +8,11 @@ If you find any mistake please feel free to add an issue on the [**original repo
 
 We provide a simple project template to avoid you to running into problems at the creation of a Scala project.
 
-- This template in the original repository in branch [**sbt-template**](https://github.com/wilberquito/interactive-Pd.A-Scala/tree/sbt-template).
+- This template in the original repository in branch [**sbt-template**](https://github.com/wilberquito/sbt-template).
   
 - The template uses [**simple build tool (sbt)**](https://www.scala-sbt.org) as the package manager. We will use it also for building and compiling engine tool for Scala.
   
-- We recommend you to use the [**sbt-template**](https://github.com/wilberquito/interactive-Pd.A-Scala/tree/sbt-template) because it is configure with the version of Scala that we will use `Scala 3.6`.
+- We recommend you to use the [**sbt-template**](https://github.com/wilberquito/sbt-template) because it is configure with the version of Scala that we will use `Scala 3.6`.
 
 ## What do you need to follow up?
 
