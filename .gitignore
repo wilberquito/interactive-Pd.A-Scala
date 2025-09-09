@@ -7,3 +7,7 @@ hs_err_pid*
 .vscode
 
 *.ipynb_checkpoints/
+
+solutions/*.ipynb
+
+*.DS_Store
