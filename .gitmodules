@@ -1,0 +1,3 @@
+[submodule "interactive-Pd.A-Scala-solutions"]
+	path = interactive-Pd.A-Scala-solutions
+	url = git@github.com:wilberquito/interactive-Pd.A-Scala-solutions.git
