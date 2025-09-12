@@ -45,5 +45,8 @@ docker build --tag wilberquito/almondsh . --no-cache
 ### Run container with volume
 
 ```sh
-docker run -it --rm -p 8888:8888 --volume ./notebooks:/home/wilberquito/notebooks wilberquito/almondsh:latest
+docker run -it --rm -p 8888:8888 \
+	--volume ./notebooks:/home/wilberquito/notebooks \
+	--volume ./interactive-Pd.A-Scala-solutions:/home/wilberquito/solutions \ 
+	--volume ./images:/home/wilberquito/images  wilberquito/almondsh:latest 
 ```
