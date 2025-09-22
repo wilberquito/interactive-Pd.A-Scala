@@ -1,38 +1,46 @@
-# [Functional and OOP with Scala](notebooks/_index.ipynb)
+# [Functional and OOP with SCALA](notebooks/_index.ipynb)
 
-For teaching purposes, we will use `Jupyter Notebooks` that run `Scala` code for the Pd.A subject.
+The SCALA content will be available through Jupyter Notebooks and some GitHub templates.
 
-If you find any mistake please feel free to add an issue on the [**original repository**](https://github.com/wilberquito/interactive-Pd.A-Scala/issues).
+If you find any mistakes, please feel free to open an issue on the [**original repository**](https://github.com/wilberquito/interactive-Pd.A-SCALA/issues).
 
-## Template for working with Scala
+## Templates for working with SCALA
 
-We provide a simple project template to avoid you to running into problems at the creation of a Scala project.
+- **Exercisis template**
+	
+	> You can find the template [here](https://github.com/wilberquito/sbt-template)
+	
+	We provide a simple project template to help you avoid issues when creating a SCALA project.
+	
+	The template uses [**simple build tool (sbt)**](https://www.scala-sbt.org) as the package manager. We will use it also for building and compiling engine tool for SCALA.
+	  
+	We **recommend** using the [**sbt-template**](https://github.com/wilberquito/sbt-template) because it is configured with the version of SCALA that we will use: `SCALA 3.6`.
 
-- This template in the original repository in branch [**sbt-template**](https://github.com/wilberquito/sbt-template).
-  
-- The template uses [**simple build tool (sbt)**](https://www.scala-sbt.org) as the package manager. We will use it also for building and compiling engine tool for Scala.
-  
-- We recommend you to use the [**sbt-template**](https://github.com/wilberquito/sbt-template) because it is configure with the version of Scala that we will use `Scala 3.6`.
+- **Actor's template**
 
-## What do you need to follow up?
+	> You can find the template [here](https://github.com/wilberquito/typed-actors-nightmare)
+	
+	This template is a fork of the “Exercises template.” It is also configured with `SCALA 3.6` and includes the `AKKA actors` package.
 
-In our system we will need the following tools:
+## What do you need to follow along?
 
-- [**IntelliJ IDEA**](https://www.jetbrains.com/idea/download) (community edition is enough)
-    - Java Development Kit version 23 (JDK23)
-    - Scala plugin
+In our setup, you will need the following tools:
+
+- [**IntelliJ IDEA**](https://www.jetbrains.com/idea/download) (Community Edition is sufficient)
+    - Java Development Kit version 23 (JDK 23)
+    - SCALA plugin
  
-The `JDK23` and the `Scala plugin` is installed through `IntelliJ IDEA`.
+The `JDK 23` and the `SCALA plugin` are installed through `IntelliJ IDEA`.
 
-<span style="color: green">You need everything running smoothly for practice purposes.</span>
+<span style="color: green">Make sure everything is running smoothly for practice purposes.</span>
 
-## Interactive Jupyter Notebooks and Scala
+## Interactive Jupyter Notebooks and SCALA
 
-You might be interested in the details of how Jupyter Noteboks and Scala interact. If
+You might be interested in the details of how Jupyter Noteboks and SCALA interact. If
 that’s the case, refer to [this post](https://blog.brunk.io/posts/interactive-computing-with-jupyter-and-almond/)
 which explains [almond](https://github.com/almond-sh/almond), the technology that makes this interactivity possible.
 
-I provide a simple `Docker` image in order that provides Scala kernels for Jupyter environments.
+I provide a simple `Docker` image in order that provides SCALA kernels for Jupyter environments.
 
 In the parent directory `./` run the commands:
 
