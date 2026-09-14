@@ -56,5 +56,5 @@ docker build --tag wilberquito/almondsh . --no-cache
 docker run -it --rm -p 8888:8888 \
 	--volume ./notebooks:/home/wilberquito/notebooks \
 	--volume ./interactive-Pd.A-Scala-solutions:/home/wilberquito/solutions \ 
-	--volume ./images:/home/wilberquito/images  wilberquito/almondsh:latest 
+	--volume ./_figures:/home/wilberquito/_figures  wilberquito/almondsh:latest 
 ```
