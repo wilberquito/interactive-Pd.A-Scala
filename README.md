@@ -1,6 +1,6 @@
 # [Functional and OOP with SCALA](notebooks/_index.ipynb)
 
-The SCALA content will be available through Jupyter Notebooks and some GitHub templates.
+The SCALA content will be available through Jupyter Notebooks and some GitHub repository templates.
 
 If you find any mistakes, please feel free to open an issue on the [**original repository**](https://github.com/wilberquito/interactive-Pd.A-SCALA/issues).
 
@@ -8,7 +8,7 @@ If you find any mistakes, please feel free to open an issue on the [**original r
 
 - **Exercisis template**
 	
-	> You can find the template [here](https://github.com/wilberquito/sbt-template)
+	> You can find the template [**here**](https://github.com/wilberquito/sbt-template)
 	
 	We provide a simple project template to help you avoid issues when creating a SCALA project.
 	
@@ -18,7 +18,7 @@ If you find any mistakes, please feel free to open an issue on the [**original r
 
 - **Actor's template**
 
-	> You can find the template [here](https://github.com/wilberquito/typed-actors-nightmare)
+	> You can find the template [**here**](https://github.com/wilberquito/typed-actors-nightmare)
 	
 	This template is a fork of the “Exercises template.” It is also configured with `SCALA 3.6` and includes the `AKKA actors` package.
 

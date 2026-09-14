@@ -1,15 +1,25 @@
 services:
   almond:
-    image: wilberquito/almondsh:latest
+    image: almondsh:latest
+
     build:
       context: .
       dockerfile: Dockerfile
+
     ports:
       - "8888:8888"
+
     volumes:
-      - ./notebooks:/home/wilberquito/notebooks
-      - ./interactive-Pd.A-Scala-solutions:/home/wilberquito/solutions
-      - ./_figures:/home/wilberquito/_figures
+      - ./notebooks:/home/jovyan/notebooks
+      - ./interactive-Pd.A-Scala-solutions:/home/jovyan/solutions
+      - ./_figures:/home/jovyan/_figures
+      - ./images:/home/jovyan/images
+
     stdin_open: true
     tty: true
 
+    command: >
+      jupyter lab
+      --ip=0.0.0.0
+      --port=8888
+      --no-browser
