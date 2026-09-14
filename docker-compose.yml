@@ -1,0 +1,15 @@
+services:
+  almond:
+    image: wilberquito/almondsh:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./notebooks:/home/wilberquito/notebooks
+      - ./interactive-Pd.A-Scala-solutions:/home/wilberquito/solutions
+      - ./_figures:/home/wilberquito/_figures
+    stdin_open: true
+    tty: true
+

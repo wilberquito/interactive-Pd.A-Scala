@@ -33,28 +33,3 @@ In our setup, you will need the following tools:
 The `JDK 23` and the `SCALA plugin` are installed through `IntelliJ IDEA`.
 
 <span style="color: green">Make sure everything is running smoothly for practice purposes.</span>
-
-## Interactive Jupyter Notebooks and SCALA
-
-You might be interested in the details of how Jupyter Noteboks and SCALA interact. If
-that’s the case, refer to [this post](https://blog.brunk.io/posts/interactive-computing-with-jupyter-and-almond/)
-which explains [almond](https://github.com/almond-sh/almond), the technology that makes this interactivity possible.
-
-I provide a simple `Docker` image in order that provides SCALA kernels for Jupyter environments.
-
-In the parent directory `./` run the commands:
-
-### Build
-
-```sh
-docker build --tag wilberquito/almondsh . --no-cache
-```
-
-### Run container with volume
-
-```sh
-docker run -it --rm -p 8888:8888 \
-	--volume ./notebooks:/home/wilberquito/notebooks \
-	--volume ./interactive-Pd.A-Scala-solutions:/home/wilberquito/solutions \ 
-	--volume ./_figures:/home/wilberquito/_figures  wilberquito/almondsh:latest 
-```
