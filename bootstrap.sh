@@ -1,3 +1,6 @@
 #!/bin/bash
 
-docker compose up --build
+docker compose down
+docker compose build --no-cache
+docker compose up --build --force-recreate
+docker image prune
