@@ -1,7 +1,9 @@
 services:
   almond:
     image: almondsh:latest
-
+    environment:
+      - JAVA_TOOL_OPTIONS=-Djava.net.preferIPv4Stack=true   
+      - JAVA_OPTS=-Djava.net.preferIPv4Stack=true                                                                                                                    
     build:
       context: .
       dockerfile: Dockerfile
